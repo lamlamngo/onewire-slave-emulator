@@ -1,6 +1,6 @@
 # One Wire Slave Emulator
 
-Back in college, there was a research project that needed a wired system where each of its parts could be moved around freely while mainting its functionalities. I proposed to use the One Wire communication protocol, as it only required 1 data wire for communications.
+Back in college, there was a research project that needed a wired system where each of its parts could be moved around freely while mainting their functionalities. I proposed to use the One Wire communication protocol, as it only required 1 data wire for communications.
 One wire has two type of devices: slaves and masters. Each one-wire system has one master and multiple slaves. The master can communicate to the exact slave it wants to as each slave has an unique ID number. This ability of the one wire protcol made it the perfect candidate for the research project.
 However, MAXIM, the owner of the protocol, does not open source the protocol and thus there is no way to make a legit customized one-wire slave device.
 
