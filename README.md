@@ -22,7 +22,7 @@ XC16 C Compiler
 PIC24HJ128GP502
 ```
 
-###Connection
+### Connection
 common ground and one shared data line. Currently, it's pin RB13. Since we need to both read and write to the data line, I configure the pin as a pull-up input whenever I need to read something and configure it as an output whenever I need to write something. These changes happen dynamically.
 
 ### What works
